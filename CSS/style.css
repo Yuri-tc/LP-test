@@ -595,7 +595,6 @@ a:visited {
   background-color: #d7dafe;
   transition: transform .5s, opacity .5s;
   text-align: left;
-
 }
 
 .accordion[open] p {
