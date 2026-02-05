@@ -18,7 +18,7 @@ body {
   background-position: 50%;
   position: relative;
   z-index:0;
-  height: 874px;
+  height: 600px;
 }
 
 .top::after {
@@ -46,17 +46,17 @@ body {
 }
 
 .top-wrap__left__mes {
-  font-size: 36px;
+  font-size: 1.75rem;
   font-weight:bold;
 }
 
 .top-wrap__left__ttl{
-  font-size: 52px;
+  font-size: 2.25rem;
   font-weight: bold;
 }
 
 .top-wrap__left__ttl span{
-  font-size: 64px;
+  font-size: 3rem;
   color:#616BFF;
 }
 
@@ -64,22 +64,23 @@ body {
   width: 30%;
   display: flex;
   margin-top: 10%;
+  padding-left: 15%;
 }
 
 .top-wrap__left__img img {
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
 }
 
 
 .top-wrap__right__achiv{
   display: inline-block;
     position: absolute;
-    bottom: 20%;
+    bottom: 10%;
     background-color: #616BFF;
     color: #fff;
-    padding: 21px 66px;
-    font-size: 40px;
+    padding: 20px 50px;
+    font-size: 1.75rem;
     font-weight: bold;
 }
 
@@ -103,10 +104,10 @@ a:visited {
   justify-content: center;
   background: #FF616B;
   border-radius: 50%;
-  width: 225px;
-  height: 225px;
+  width: 175px;
+  height: 175px;
   color: #fff;
-  font-size: 32px;
+  font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 10%;
 }
@@ -122,10 +123,10 @@ a:visited {
   justify-content: center;
   background: #61FFF4;
   border-radius: 50%;
-  width: 225px;
-  height: 225px;
+  width: 175px;
+  height: 175px;
   color: #fff;
-  font-size: 32px;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -143,7 +144,7 @@ a:visited {
 }
 
 .com-ttl {
-  font-size: 38px;
+  font-size: 2.5rem;
   font-weight: bold;
   color: #6670FF;
 }
@@ -162,7 +163,7 @@ a:visited {
 }
 
 .pro{
-  padding: 74px 258px;
+  padding: 50px 258px;
 }
 
 .__inner {
@@ -185,21 +186,21 @@ a:visited {
 .pro-wrap__mes{
   display: inline-block;
   margin-top: 4.5%;
-  padding: 1.5%;
+  padding: 0 1%;
   position: relative;
   background-color: #616BFF;
   color: #fff;
-  font-size: 40px;
+  font-size: 2rem;
   font-weight: bold;
 }
 
 .pro-wrap__mes span{
-  font-size: 48px;
+  font-size: 2.5rem;
   color: #FF616B;
 }
 
 .pro-wrap__ttl{
-  font-size: 48px;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
@@ -214,16 +215,16 @@ a:visited {
   width: 25%;
   background-color: #E9FEFB;
   text-align: center;
-  padding: 2.5%;
+  padding: 1.50%;
 }
 
 .pro-wrap__con__subttl{
-  font-size: 22px;
+  font-size: 1.25rem;
   font-weight: bold;
 }
 
 .pro-wrap__con p{
-  font-size: 18px;
+  font-size: 0.75rem;
   font-weight: bold;
 }
 
@@ -233,7 +234,7 @@ a:visited {
   padding: 1.5% 5%;
   position: relative;
   background-color: #616BFF;
-  border-radius: 15%;
+  border-radius: 50px;
 }
 
 .pro-wrap__more a,
@@ -247,14 +248,14 @@ a:visited {
 }
 
 .s-ttl {
-  font-size: 38px;
+  font-size: 2.5rem;
   font-weight: bold;
   color: #000;
 }
 
 .fea {
   background-color: #E9FEFB;
-  padding: 80px 258px;
+  padding: 50px 258px;
 }
 
 .fea-wrap__ttl {
@@ -278,8 +279,8 @@ a:visited {
 }
 .fea-wrap__con__block__txt h3 {
   color: #616BFF;
-  font-size: 32px;
-  font-weight: 500;
+  font-size: 2rem;
+  font-weight: bold;
   margin-top: 4%;
 }
 
@@ -307,7 +308,7 @@ a:visited {
   padding: 1.5% 5%;
   position: relative;
   background-color: #616BFF;
-  border-radius: 5%;
+  border-radius: 50px;
   float: right;
 }
 
@@ -323,7 +324,7 @@ a:visited {
 
 .sim {
   background-color: #F5F5F5;
-  padding: 80px 258px;
+  padding: 50px 258px;
 }
 
 .sim-wrap__ttl {
@@ -335,14 +336,17 @@ table {
   background-color: #fff;
   border-collapse: collapse;
   border: 1px solid #b0b0b0;
-  width: 80%;
+  width: 70%;
+  display: inline-block;
   text-align: center;
+  border: none;
 }
 
 th {
   border: 1px solid #b0b0b0;
   padding: 2%;
-  width: 15%;
+  width: 10%;
+  font-weight: normal;
 }
 
 td {
@@ -353,21 +357,30 @@ td {
 }
 
 td span{
-  font-size: 28px;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
+
 .light{
   color: #616BFF;
+  font-size: 1.25rem;
+  font-weight: bold;
 }
 
 .standard{
   background-color: #99A0FF;
   color: #fff;
+  font-size: 1.25rem;
+  font-weight: bold;
 }
 
 .Pro{
   background-color:#616BFF ;
   color: #fff;
+  font-size: 1.25rem;
+  font-weight: bold;
 }
+
 .fa-solid {
   color: #616BFF;
 }
@@ -378,7 +391,7 @@ td span{
   padding: 1.5% 10%;
   position: relative;
   background-color: #61FFF4;
-  border-radius: 10%;
+  border-radius: 50px;
 }
 
 .sim-wrap__more a,
@@ -397,7 +410,7 @@ a:visited {
   padding: 1.5% 5%;
   position: relative;
   background-color: #FF616B;
-  border-radius: 10%;
+  border-radius: 50px;
 }
 
 .sim-wrap__quo a,
@@ -425,7 +438,7 @@ a:visited {
 
 .voi {
   background-color: #fff;
-  padding: 80px 258px;
+  padding: 50px 258px;
 }
 
 .voi-wrap__ttl {
@@ -453,7 +466,7 @@ a:visited {
   width: 85%;
   background-color: #E7FFFC;
   margin: 0 5%;
-  padding: 2%;
+  padding: 1%;
   text-align: center;
   border-radius: 3%;
   position: relative;
@@ -461,7 +474,7 @@ a:visited {
 
 .voi-wrap__con__block__txt h3 {
   color: #000000;
-  font-size: 28px;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -470,7 +483,6 @@ a:visited {
 }
 
 .voi-wrap__con__block__txt p {
-  font-size: 1rem;
   line-height: 2;
   margin-top: 1%;
   text-align: left;
@@ -493,7 +505,7 @@ a:visited {
 }
 
 .fa-quote-right{
-  font-size: 64px;
+  font-size: 48px;
   position:absolute;
   top:-35px;
   right: 20px;
@@ -517,13 +529,13 @@ a:visited {
 }
 
 .faq-ttl{
-  font-size: 38px;
+  font-size: 2.5rem;
   font-weight: bold;
   color: #fff;
 }
 
 .faq-wrap__con {
-  width: 70%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -568,6 +580,7 @@ a:visited {
 }
 
 .accordion p {
+  font-size: 1.25rem;
   transform: translateY(-10px);
   opacity: 0;
   margin: 0;
@@ -581,6 +594,7 @@ a:visited {
 }
 
 .accordion[open] p {
+  font-size: 1rem;
   transform: none;
   opacity: 1;
 }
@@ -595,9 +609,13 @@ a:visited {
   padding-bottom: 3%;
 }
 
+.con-wrap__ttl span{
+  font-size: 1.5rem;
+}
+
 .con-wrap__txt{
   color: #FF616B;
-  font-size: 20px;
+  font-size: 1.15rem;
   position: absolute;
   right: 20%;
 }
@@ -614,20 +632,21 @@ a:visited {
   display: block;
   position: relative;
   color: #000;
-  font-size: 1.5rem;
+  font-size: 1.15rem;
   padding-bottom: 0.75%;
   text-align: left;
 }
 
 .contact-wrap__con__form__item input {
   width: 100%;
-  height: 3rem;
+  height: 2.75rem;
+  font-size: 1rem;
   margin-bottom: 2%;
   border: none;
 }
 
 .contact-wrap__con__form__text{
-  margin-top: 2% 0;
+  margin-top: 2%;
   text-align: center;
 }
 
@@ -641,7 +660,7 @@ a:visited {
 .contact-wrap__con__form__btn button{
   width: auto;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 1.25rem;
   background-color: #616BFF;
   border-radius: 50px;
   color: #fff;
@@ -655,12 +674,12 @@ a:visited {
 .contact-wrap__con__form__btn button:hover{
   opacity: 0.5;
 }
+
 .footer-wrap {
   background-color: #D9D9D9;
-  padding: 20px 0;
+  padding: 5% 0;
 }
 
 .footer-wrap p {
   text-align: center;
-  font-size: 20px;
 }
